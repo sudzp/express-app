@@ -1,0 +1,19 @@
+
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Docker files
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Secrets and environment variables
+.env
+.env.*
+*.pem
+*.key
+
+# Dependencies (install these inside the container instead)
+node_modules/
